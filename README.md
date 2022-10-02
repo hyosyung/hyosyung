@@ -13,7 +13,7 @@
 ```mermaid
 sequenceDiagram
 autonumber
-hyosung --> haengbok : Hi haengbok
+hyosung -> haengbok : Hi haengbok
 alt is well
 haengbok -->> hyosung : Hi hyosung
 else is not well
