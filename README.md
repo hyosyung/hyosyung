@@ -13,13 +13,14 @@
 ```mermaid
 sequenceDiagram
 autonumber
-hyosung -> haengbok : Hi haengbok
+actor hyosung
+hyosung ->> haengbok : Hi haengbok
 alt is well
 haengbok -->> hyosung : Hi hyosung
 else is not well
 haengbok -->> hyosung : bye hyosung
 end
 opt extra response
-haengbok --> hyosung : I love you
+haengbok -->> hyosung : I love you
 end
 ```
