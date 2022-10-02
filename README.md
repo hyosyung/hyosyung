@@ -10,9 +10,3 @@
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=hyosyung&show_icons=true)
 
-
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
