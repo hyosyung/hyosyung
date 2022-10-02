@@ -13,5 +13,5 @@
 ```mermaid
 sequenceDiagram
 autonum
-hyosung -> haengbok : Hi haengbok
+hyosung --> haengbok : Hi haengbok
 ```
