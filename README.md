@@ -15,8 +15,10 @@ sequenceDiagram
 autonumber
 hyosung --> haengbok : Hi haengbok
 alt is well
-haengbok --> hyosung : Hi hyosung
+haengbok -->> hyosung : Hi hyosung
 else is not well
-haengbok --> hyosung : bye hyosung
+haengbok -->> hyosung : bye hyosung
 end
+opt extra response
+haengbok --> hyosung : I love you
 ```
