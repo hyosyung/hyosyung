@@ -21,4 +21,5 @@ haengbok -->> hyosung : bye hyosung
 end
 opt extra response
 haengbok --> hyosung : I love you
+end
 ```
